@@ -41,45 +41,48 @@
         <h2>Services</h2>
         <div class="row">
 
-            <section class="col-md-4 col-sm-6 col-lg-2">
+            <!-- Here we use the 'col-xs-offet-3' to offset this column by 3 column spaces
+                when the view port is at the extra-small breakpoint.  We also use the
+                'col-xs-6' to size the column to be 6 columns wide when at the extra
+                small break point as well.
+
+                 This does pose a problem when the view port is scale up to the 'small' breakpoint, because
+                 the offset is still set to 3 columns.  We fix this by using the 'col-sm-offset-0' class to
+                 reset the column offset to zero when the view port reaches the 'small' breakpoint
+                 -->
+            <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-md-4 col-sm-6 col-lg-2">
                 <img class="icon" src="../images/reptiles.jpg" alt="icon">
                 <h3>General Health</h3>
                 <p>Out therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
             </section>
 
-            <section class="col-md-4 col-sm-6 col-lg-2">
+            <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-md-4 col-sm-6 col-lg-2">
                 <img class="icon" src="../images/reptiles.jpg" alt="icon">
                 <h3>Exotic Pets</h3>
                 <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
             </section>
 
-            <!-- Responsive Utility Classes -->
-            <!--/////////////////////////////////////////////////////////// -->
-            <!-- Clearfix can help with floating div problems, but it may cause more problems
-                in other breakpoints.  Here we can use the Responsive Utility Classes to
-                allow us to specify which floating items are affected, which break point is affected,
-                and whether it is visible as a block/inline element -->
             <div class="clearfix visible-sm-block"></div>
 
-            <section class="col-md-4 col-sm-6 col-lg-2">
+            <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-md-4 col-sm-6 col-lg-2">
                 <img class="icon" src="../images/reptiles.jpg" alt="icon">
                 <h3>Grooming</h3>
                 <p>Out therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
             </section>
 
-            <section class="col-md-4 col-sm-6 col-lg-2">
+            <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-md-4 col-sm-6 col-lg-2">
                 <img class="icon" src="../images/reptiles.jpg" alt="icon">
                 <h3>Vaccinations</h3>
                 <p>Out therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
             </section>
 
-            <section class="col-md-4 col-sm-6 col-lg-2">
+            <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-md-4 col-sm-6 col-lg-2">
                 <img class="icon" src="../images/reptiles.jpg" alt="icon">
                 <h3>Perst Control</h3>
                 <p>Out therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
             </section>
 
-            <section class="col-md-4 col-sm-6 col-lg-2">
+            <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-md-4 col-sm-6 col-lg-2">
                 <img class="icon" src="../images/reptiles.jpg" alt="icon">
                 <h3>Phones</h3>
                 <p>Out therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
