@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="../css/styles.css">-->
+
+    <!-- Optional IE8 Support -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <title>Misc Styles and Sizing</title>
+</head>
+
+
+<style>
+
+</style>
+<body>
+
+
+
+
+<div class="container">
+    <div class="row">
+        <section class="col-xs-12">
+
+            <form class="form-horizontal">
+
+
+                <fieldset>
+                    <legend>Basic Info</legend>
+
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label"
+                           for="inputName">Name</label>
+                    <div class="col-sm-10">
+                        <!--
+                            you can set an input to be read only by using the
+                             'readonly' property inside the tag
+                        -->
+                        <input class="form-control input-md" type="text"
+                               id="inputName" placeholder="Someones Name" value="someones name" readonly>
+                    </div>
+                </div>
+
+                <!--
+                    you can use the 'form-group-X' class to change the size
+                    of the various elements inside of a form-group
+                -->
+                <div class="form-group form-group-sm">
+                    <label class="col-sm-2 control-label"
+                           for="inputEmail">Email</label>
+                    <div class="col-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon">@</span>
+                            <input class="form-control" type="email"
+                                   id="inputEmail" placeholder="Email">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label"
+                           for="selectSite">Site</label>
+                    <div class="col-sm-10">
+                        <select class="form-control" id="selectSite">
+                            <option>Choose...</option>
+                            <option>lynda.com</option>
+                            <option>raybo.org</option>
+                            <option>iviewsource.com</option>
+                        </select>
+                    </div>
+                </div>
+
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Checkbox & Comments</legend>
+
+
+                <div class="form-group">
+                    <div class="col-sm-10 col-sm-offset-2">
+                        <div class="checkbox disabled">
+                            <label>
+                                <input id="inputAddList"
+                                       type="checkbox" disabled>Add me to e-mail blast
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label"
+                           for="inputComments">Comments</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control"
+                                  id="inputComments"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-10 col-sm-offset-2">
+                        <input type="submit" class="btn btn-default"
+                               value="submit">
+                    </div>
+                </div>
+
+
+                </fieldset>
+
+            </form>
+
+        </section>
+    </div><!-- row -->
+</div><!-- content container -->
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>
