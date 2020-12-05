@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-05T05:30:41.000Z" agent="5.0 (Windows)" version="13.10.6" etag="QryEycdSXPzuv1rd7AVK" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-05T05:34:06.741Z" agent="5.0 (Windows)" version="13.10.6" etag="JhCVnEsVMSHnfcWkp7z1" type="github">
   <diagram id="e3da1e9f-392a-c8f2-aed0-ecf384b9811f" name="Page-1">
     <mxGraphModel dx="1217" dy="941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -15,8 +15,8 @@
         <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.75;exitY=1;entryX=0;entryY=0.5;jettySize=auto;orthogonalLoop=1;" parent="1" source="2" target="8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2" value="Mothership" style="shape=process;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="410" width="120" height="60" as="geometry" />
+        <mxCell id="2" value="Mothership" style="shape=process;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="200" y="410" width="120" height="130" as="geometry" />
         </mxCell>
         <mxCell id="4" value="Tower" style="shape=cylinder;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="400" width="60" height="80" as="geometry" />
@@ -160,10 +160,10 @@
         </mxCell>
         <mxCell id="k9fxcPWE0iUp_ANDivqY-50" value="" style="endArrow=classic;html=1;strokeColor=#080808;fontColor=#0A0A0A;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="480" as="sourcePoint" />
+            <mxPoint x="240" y="600" as="sourcePoint" />
             <mxPoint x="480" y="640" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="330" y="580" />
+              <mxPoint x="350" y="650" />
             </Array>
           </mxGeometry>
         </mxCell>
