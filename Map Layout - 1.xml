@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-05T04:15:28.785Z" agent="5.0 (Windows)" version="13.10.6" etag="n7eO2aNbdl-gqw9Uf3rV" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-05T04:17:35.034Z" agent="5.0 (Windows)" version="13.10.6" etag="G9sr6GJJnjrPw3TansA3" type="github">
   <diagram id="e3da1e9f-392a-c8f2-aed0-ecf384b9811f" name="Page-1">
     <mxGraphModel dx="1217" dy="941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -122,13 +122,13 @@
         <mxCell id="38" value="&lt;div&gt;Beam&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="700" y="605" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="39" value="Tower" style="text;html=1;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="39" value="Tower" style="text;html=1;fontSize=14;fontColor=#EBEBEB;" parent="1" vertex="1">
           <mxGeometry x="370" y="645" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="40" value="Merc" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;align=center;" parent="1" vertex="1">
+        <mxCell id="40" value="Merc" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;align=center;fontColor=#FCFCFC;" parent="1" vertex="1">
           <mxGeometry x="440" y="510" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="41" value="Merc" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;align=center;" parent="1" vertex="1">
+        <mxCell id="41" value="Merc" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;align=center;fontColor=#FCFCFC;" parent="1" vertex="1">
           <mxGeometry x="440" y="280" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="42" value="Tank Merc" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fontColor=#000000;align=center;" parent="1" vertex="1">
@@ -139,6 +139,9 @@
         </mxCell>
         <mxCell id="44" value="Commanders can change the formation of minions" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="220" y="20" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="k9fxcPWE0iUp_ANDivqY-44" value="&lt;div align=&quot;left&quot;&gt;Spawn Pool&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;-minions&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;-&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=center;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="20" y="160" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
